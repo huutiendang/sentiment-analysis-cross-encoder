@@ -1,0 +1,12 @@
+pandas
+numpy
+transformers
+tokenizers
+wandb
+tqdm
+pyyaml
+scikit-learn
+sentence_transformers
+sacremoses
+textattack
+gdown

@@ -1,0 +1,100 @@
+model: cross_encoder_3_augmented_roberta_base
+[Succeeded / Failed / Skipped / Total] 548 / 240 / 0 / 788: 100% 788/788 [13:29<00:00,  1.03s/it]
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 548    |
+| Number of failed attacks:     | 240    |
+| Number of skipped attacks:    | 0      |
+| Original accuracy:            | 100.0% |
+| Accuracy under attack:        | 30.46% |
+| Attack success rate:          | 69.54% |
+| Average perturbed word %:     | 4.81%  |
+| Average num. words per input: | 24.72  |
+| Avg num queries:              | 31.21  |
++-------------------------------+--------+
+
+model cross_encoder_baseline_roberta_base
+[Succeeded / Failed / Skipped / Total] 595 / 117 / 76 / 788: 100% 788/788 [12:12<00:00,  1.08it/s]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 595    |
+| Number of failed attacks:     | 117    |
+| Number of skipped attacks:    | 76     |
+| Original accuracy:            | 90.36% |
+| Accuracy under attack:        | 14.85% |
+| Attack success rate:          | 83.57% |
+| Average perturbed word %:     | 4.76%  |
+| Average num. words per input: | 24.72  |
+| Avg num queries:              | 31.69  |
++-------------------------------+--------+
+
+model : cross_encoder_augmented_roberta_base
+[Succeeded / Failed / Skipped / Total] 590 / 177 / 21 / 788: 100% 788/788 [13:00<00:00,  1.01it/s]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 590    |
+| Number of failed attacks:     | 177    |
+| Number of skipped attacks:    | 21     |
+| Original accuracy:            | 97.34% |
+| Accuracy under attack:        | 22.46% |
+| Attack success rate:          | 76.92% |
+| Average perturbed word %:     | 4.86%  |
+| Average num. words per input: | 24.72  |
+| Avg num queries:              | 31.38  |
++-------------------------------+--------+
+
+model: cross_encoder_baseline_roberta_large
+[Succeeded / Failed / Skipped / Total] 566 / 168 / 54 / 788: 100% 788/788 [36:32<00:00,  2.78s/it]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 566    |
+| Number of failed attacks:     | 168    |
+| Number of skipped attacks:    | 54     |
+| Original accuracy:            | 93.15% |
+| Accuracy under attack:        | 21.32% |
+| Attack success rate:          | 77.11% |
+| Average perturbed word %:     | 4.85%  |
+| Average num. words per input: | 24.72  |
+| Avg num queries:              | 31.24  |
++-------------------------------+--------+
+
+model: cross_encoder_augmented_roberta_large
+[Succeeded / Failed / Skipped / Total] 610 / 175 / 3 / 788: 100% 788/788 [38:57<00:00,  2.97s/it]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 610    |
+| Number of failed attacks:     | 175    |
+| Number of skipped attacks:    | 3      |
+| Original accuracy:            | 99.62% |
+| Accuracy under attack:        | 22.21% |
+| Attack success rate:          | 77.71% |
+| Average perturbed word %:     | 4.81%  |
+| Average num. words per input: | 24.72  |
+| Avg num queries:              | 31.19  |
++-------------------------------+--------+
+
+model: cross_encoder_3_augmented_roberta_large
+[Succeeded / Failed / Skipped / Total] 474 / 314 / 0 / 788: 100% 788/788 [39:12<00:00,  2.99s/it]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 474    |
+| Number of failed attacks:     | 314    |
+| Number of skipped attacks:    | 0      |
+| Original accuracy:            | 100.0% |
+| Accuracy under attack:        | 39.85% |
+| Attack success rate:          | 60.15% |
+| Average perturbed word %:     | 4.87%  |
+| Average num. words per input: | 24.72  |
+| Avg num queries:              | 31.21  |
++-------------------------------+--------+
